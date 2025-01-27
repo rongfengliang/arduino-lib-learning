@@ -6,7 +6,7 @@
 */
 
 #include "Arduino.h"
-#include "Morse.h"
+#include "MorseSensor.h"
 
 Morse::Morse(int pin)
 {
