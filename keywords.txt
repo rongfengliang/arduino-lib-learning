@@ -1,4 +1,12 @@
-Morse   KEYWORD1
-begin   KEYWORD2
-dash    KEYWORD2
-dot KEYWORD2
+Morse       KEYWORD1
+begin       KEYWORD2
+dot         KEYWORD2
+dash        KEYWORD2
+setDotLength    KEYWORD2
+setDashLength   KEYWORD2
+setGapLength    KEYWORD2
+pause       KEYWORD2
+letterPause KEYWORD2
+wordPause   KEYWORD2
+sendChar    KEYWORD2
+sendMessage KEYWORD2

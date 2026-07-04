@@ -1,4 +1,4 @@
-#include <Morse.h>
+#include <MorseSensor.h>
 
 Morse morse(13);
 
@@ -9,9 +9,8 @@ void setup()
 
 void loop()
 {
-  morse.dot(); morse.dot(); morse.dot();
-  morse.dash(); morse.dash(); morse.dash();
-  morse.dot(); morse.dot(); morse.dot();
+  // Send SOS in Morse code using the new sendMessage method
+  morse.sendMessage("SOS");
   delay(3000);
 }
 
